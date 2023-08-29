@@ -1,0 +1,160 @@
+#Add {
+  color: rgb(67, 138, 204);
+  border-radius: 4px;
+  border-color: #46b8da;
+  padding: 10px;
+  float: right;
+  margin-top: 52px;
+  left: 50%;
+  position: absolute;
+}
+
+#Back {
+  color: rgb(67, 138, 204);
+  border-radius: 4px;
+  border-color: #46b8da;
+  padding: 10px;
+  float: left;
+  margin-top: 52px;
+  left: 30%;
+  position: absolute;
+}
+
+
+#Update {
+  color: rgb(67, 138, 204);
+  border-radius: 4px;
+  border-color: #46b8da;
+  padding: 10px;
+  float: right;
+  margin-top: 52px;
+  left: 10%;
+  position: absolute;
+} 
+
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+.form-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.popup-form {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.popup-form h2 {
+  text-align: center;
+}
+
+.popup-form input[type="text"],
+.popup-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.popup-form button[type="button"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-form button[type="button"]:hover {
+  background-color: #45a049;
+}
+
+button {
+  margin: 5px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center {
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
