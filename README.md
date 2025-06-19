@@ -1,4 +1,4 @@
-# Database-Project
+# Desktop-based Data Manipulation System  
 Step#1:
 Start Apache and MySQL services through XAMP control pannel on your system
 
